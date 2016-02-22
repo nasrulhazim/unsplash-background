@@ -7,9 +7,10 @@
     Version: 1.0
     Author URI: http://blog.nasrulhazim.com
     */
-    
+
 	function enqueue_styles() {
 		wp_enqueue_style('vegas','https://cdnjs.cloudflare.com/ajax/libs/vegas/2.2.0/vegas.min.css');
+		wp_enqueue_style('unsplash-background',plugin_dir_url( __FILE__ ) . 'assets/css/unsplash-background.css');
 	}
 
 	function enqueue_scripts() {
